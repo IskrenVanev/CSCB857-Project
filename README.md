@@ -72,15 +72,14 @@ Bulky_MVC is designed to make bulk book purchases easy and efficient. The applic
 - The admin can manage orders.
 - The admin can create, edit and delete books
 - The admin can manage users.
-## Customer Area
-- The customer can order different books 
-- The customer can manage his cart
-
 ## Employee role: 
 - The employees can manage orders
 ## Company role: 
 - If a company orders books it has 30 days to pay for them
 
+## Customer Area
+- The customer can order different books 
+- The customer can manage his cart
 
 ## Project Structure:
 1. Data Access (It contains the DbContext, DbInitializer which creates 1 default admin user, all migrations, Repository pattern)
@@ -88,7 +87,6 @@ Bulky_MVC is designed to make bulk book purchases easy and efficient. The applic
 3. Utility (It contains helper classes)
 4. Test (It contains NUnit tests)
 5. BulkyWeb (It contains the 2 areas, views and view components, wwwroot folder and appsettings.json)
-6. BulkyWebRazor_Temp (Temporary project that I used so I can learn more about Razor pages.)
 
 
 ## Contributing
